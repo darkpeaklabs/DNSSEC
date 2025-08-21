@@ -20,6 +20,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r ./src/requirements.txt
 
+      - name: Create data directory if it doesn't exist
+        run: |
+          mkdir -p data
+
       - name: Run Python script
         run: python ./src/dnssec.py --source IANA --max 10 --path data
 
