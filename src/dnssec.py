@@ -15,7 +15,7 @@ url_public_suffix = 'https://publicsuffix.org/list/public_suffix_list.dat'
 url_iana_tlds = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt'
 
 
-parser.add_argument('-s', '--source', choices=['publicsuffix', 'iana'], required=True,
+parser.add_argument('-s', '--source', choices=['publicsuffix', 'iana'], type=str.lower, required=True,
                     help='Source of domain names: "publicsuffix" for Public Suffix List or "iana" for IANA TLDs')
 parser.add_argument('-p', '--path', type=str, default='.',
                     help='Path to save the output files (default: current directory)')
