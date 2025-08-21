@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Python script
-        run: python ./src/dnssec.py --source IANA --max 10 --path ../data
+        run: python ./src/dnssec.py --source IANA --max 10 --path data
 
       - name: Update data files
         run: | 
