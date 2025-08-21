@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug DNSSEC Script",
+            "name": "Debug dnssec.py",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/src/dnssec.py",
             "console": "integratedTerminal",
-            "args": [ "-s","iana", "-m", "10" ]
+            "args": [ "-s","iana", "-m", "10", "-p", "data" ]
         }
     ]
 }
