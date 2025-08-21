@@ -10,5 +10,6 @@
 .github/*
 !.github/workflows
 
-# data files
-data/*
+# debug data files
+test/*.csv
+test/*.json

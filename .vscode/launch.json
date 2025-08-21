@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/src/dnssec.py",
             "console": "integratedTerminal",
-            "args": [ "-s","iana", "-m", "10", "-p", "data" ]
+            "args": [ "-s","iana", "-m", "10", "-p", "test" ]
         }
     ]
 }
