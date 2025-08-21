@@ -1,0 +1,62 @@
+[
+    {
+        "name": "business",
+        "dnssec": true,
+        "dnskey": "7f17414b2ebdd17b8bf3f1205bc82e2ee158df8de4cf46daceff55447f0ee429",
+        "error": null
+    },
+    {
+        "name": "earth",
+        "dnssec": true,
+        "dnskey": "f5ced94f4f7cd8bd7278cabd2d2e7be2db0ff7c89037b9066212d42883a525cf",
+        "error": null
+    },
+    {
+        "name": "studio",
+        "dnssec": true,
+        "dnskey": "d4289b105c9cb81d1ea631fe723a7dd3e9a52fb649b4a0a40c4890a9faa62846",
+        "error": null
+    },
+    {
+        "name": "biz",
+        "dnssec": true,
+        "dnskey": "e41af415e6cd0727c2924d6e60b896fb9c6d81831ac90c9dca4c22497701ab1a",
+        "error": null
+    },
+    {
+        "name": "nr",
+        "dnssec": false,
+        "dnskey": null,
+        "error": null
+    },
+    {
+        "name": "engineer",
+        "dnssec": true,
+        "dnskey": "df8c5c2c75abf8ea572d1dfa8ba0a78d4f74ca7213521c1084154aa9684a5587",
+        "error": null
+    },
+    {
+        "name": "aeg",
+        "dnssec": true,
+        "dnskey": "03500be162e8b2bc43345d119763e29d9284de715bdf66e55dd19b400a1e64ae",
+        "error": null
+    },
+    {
+        "name": "solar",
+        "dnssec": true,
+        "dnskey": "9fe65d323fa0cef5b7c9180df5e5eb8cb03d9e8253fe0089e85e4bb58a57aa5d",
+        "error": null
+    },
+    {
+        "name": "investments",
+        "dnssec": true,
+        "dnskey": "9a6df7804a869eeccb7d1c03f4acc62fee9c130250cf3479be1e9f3904a9e0dc",
+        "error": null
+    },
+    {
+        "name": "gu",
+        "dnssec": false,
+        "dnskey": null,
+        "error": null
+    }
+]
